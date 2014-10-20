@@ -22,11 +22,11 @@ if (version_compare(PHP_VERSION, '5.3.7', '<')) {
 }
 echo "Verificou a versão";
 // include the configs / constants for the database connection
-require_once("login/config/db.php");
+require_once("config/db.php");
 echo "Definiu os treco do DB";
 // load the login class
 echo "Fazendo a classe Login";
-require_once("login/classes/Login.php");
+require_once("classes/Login.php");
 echo "Fez a classe Login";
 // create a login object. when this object is created, it will do all login/logout stuff automatically
 // so this single line handles the entire login process. in consequence, you can simply ...
