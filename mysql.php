@@ -39,7 +39,7 @@ function get_messages(mysqli $mysql)
  
 try
 {
-	$mysql = new mysqli('localhost', 'rafall', 'secret_pass', 'test');
+	$mysql = new mysqli('104.131.189.211', 'root', 'topcomm', 'test');
 }
 catch (Exception $e)
 {
