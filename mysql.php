@@ -39,7 +39,7 @@ function get_messages(mysqli $mysql)
  
 try
 {
-	$mysql = new mysqli('104.131.189.211', 'root', 'topcomm', 'test');
+	$mysql = new mysqli('104.131.189.211', 'root', 'topcomm', 'login');
 }
 catch (Exception $e)
 {
