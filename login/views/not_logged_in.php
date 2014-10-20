@@ -49,7 +49,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-              <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="login/classe/Login.php" name="loginform">
+              <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="index.php" name="loginform">
                   <div class="form-group">
                     <div class="input-group">
                       <input class="form-control" type="email" d="login_input_username" name="user_name" placeholder="Enter email">
