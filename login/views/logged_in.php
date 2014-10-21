@@ -7,7 +7,7 @@
     <title>TopComm Project</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
 
     
   </head>
@@ -51,7 +51,7 @@
             <button type="submit" class="btn btn-default">Search</button>
           </form>
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span id="username"><img src="img/profile_default.png" class="img-circle" height="18px" width="18px"> <?php echo $_SESSION['user_name']; ?></span></a></li>
+              <li><a href="#"><span id="username"><img src="/TopComm/img/profile_default.png" class="img-circle" height="18px" width="18px"> <?php echo $_SESSION['user_name']; ?></span></a></li>
               <li><span class="glyphicon glyphicon-comment" style="padding-top:15px;"></span></li>
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span><span class="caret"></span></a>
@@ -87,6 +87,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/TopComm/js/bootstrap.min.js"></script>
   </body>
 </html>
