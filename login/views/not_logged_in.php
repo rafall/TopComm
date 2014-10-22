@@ -69,9 +69,8 @@
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
-    </nav>
-    <div style="width:900px;">  
-        <div style="width: 450px;">
+    </nav> 
+        <div style="width: 450px; float:left;">
             <h1>O que é o ColheJá?</h1>
 
                 O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
@@ -82,8 +81,8 @@
                 Cadastre-se agora! É de graça!.
 
         </div>
-          <div style="width: 450px; margin: 0px auto 0px auto;">
-            <h1>Sign Up Today!</h1>
+          <div style="width: 450px; margin: 0px auto 0px auto; float:right;">
+            <h1>Cadastre-se agora!</h1>
             <form role="form" method="post" action="login/register.php" name="registerform">
               <div class="form-group">
                 <input type="text" class="form-control" id="login_input_username" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required placeholder="Nome">
@@ -105,7 +104,7 @@
             </form>
           </div>
 
-    </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
