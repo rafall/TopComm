@@ -70,20 +70,21 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav> 
-        <div style="width: 450px; float:left;">
-            <h1>O que é o ColheJá?</h1>
+        <div style="width: 50%; float:left; ">
 
+            <h1 style="text-align:center">O que é o ColheJá?</h1>
+<p style="text-align:center; font-size:16px;">
                 O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
                 Precisa colher seu milho mas não tem os equipamentos adequados?<br>
                 Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
                 Precisa fazer o transporte da produção?<br>
                 Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
                 Cadastre-se agora! É de graça!.
-
+</p>
         </div>
-          <div style="width: 450px; margin: 0px auto 0px auto; float:right;">
-            <h1>Cadastre-se agora!</h1>
-            <form role="form" method="post" action="login/register.php" name="registerform">
+          <div style="width: 50%; margin: 0px auto 0px auto; float:right;padding-right:200px;">
+            <h1 style="text-align:center">Cadastre-se agora!</h1>
+            <form style="margin-left:auto;margin-right:auto;"role="form" method="post" action="login/register.php" name="registerform">
               <div class="form-group">
                 <input type="text" class="form-control" id="login_input_username" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required placeholder="Nome">
               </div>
