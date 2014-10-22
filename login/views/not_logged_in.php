@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TopComm Project</title>
+    <title>ColheJá</title>
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
@@ -27,13 +27,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">TopComm</a>
+          <a class="navbar-brand" href="#">ColheJá</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#">Início</a></li>
             <li><a href="#">Machines</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Where <span class="caret"></span></a>
@@ -52,60 +52,60 @@
               <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="index.php" name="loginform">
                   <div class="form-group">
                     <div class="input-group">
-                      <input class="form-control" type="email" d="login_input_username" name="user_name" placeholder="Enter email">
+                      <input class="form-control" type="email" d="login_input_username" name="user_name" placeholder="E-mail">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword2">Password</label>
-                    <input type="password" id="login_input_password" name="user_password" autocomplete="off" class="form-control" placeholder="Password">
+                    <label class="sr-only" for="exampleInputPassword2">Senha</label>
+                    <input type="password" id="login_input_password" name="user_password" autocomplete="off" class="form-control" placeholder="Senha">
                   </div>
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox"> Remember me
+                      <input type="checkbox"> Lembre de mim
                     </label>
                   </div>
-                  <button type="submit" name="login" class="btn btn-default">Sign in</button>
+                  <button type="submit" name="login" class="btn btn-default">Entrar</button>
             </form> 
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-      
-    <div style="width: 450px;">
-        <h1>O que é o ColheJá?</h1>
-        
-            O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
-            Precisa colher seu milho mas não tem os equipamentos adequados?<br>
-            Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
-            Precisa fazer o transporte da produção?<br>
-            Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
-            Cadastre-se agora! É de graça!.
-        
+    <div style="width:900px;">  
+        <div style="width: 450px;">
+            <h1>O que é o ColheJá?</h1>
+
+                O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
+                Precisa colher seu milho mas não tem os equipamentos adequados?<br>
+                Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
+                Precisa fazer o transporte da produção?<br>
+                Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
+                Cadastre-se agora! É de graça!.
+
+        </div>
+          <div style="width: 450px; margin: 0px auto 0px auto;">
+            <h1>Sign Up Today!</h1>
+            <form role="form" method="post" action="login/register.php" name="registerform">
+              <div class="form-group">
+                <input type="text" class="form-control" id="login_input_username" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Sobrenome">
+              </div>
+              <div class="form-group">
+                <input type="email" id="login_input_email" class="form-control" name="user_email" requiredclass="form-control" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="password" id="login_input_password_new" name="user_password_new" pattern=".{6,}" required autocomplete="off" class="form-control" placeholder="Senha">
+              </div>
+                <div class="form-group">
+                <input type="password" id="login_input_password_repeat" name="user_password_repeat" pattern=".{6,}" required autocomplete="off" class="form-control" placeholder="Repita a senha">
+              </div>
+              <br>
+              <button type="submit" name="register" class="btn btn-primary btn-lg btn-block">Cadastrar</button>
+            </form>
+          </div>
+
     </div>
-      <div style="width: 450px; margin: 0px auto 0px auto;">
-        <h1>Sign Up Today!</h1>
-        <form role="form" method="post" action="login/register.php" name="registerform">
-          <div class="form-group">
-            <input type="text" class="form-control" id="login_input_username" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required placeholder="First Name">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last Name">
-          </div>
-          <div class="form-group">
-            <input type="email" id="login_input_email" class="form-control" name="user_email" requiredclass="form-control" placeholder="Email adress">
-          </div>
-          <div class="form-group">
-            <input type="password" id="login_input_password_new" name="user_password_new" pattern=".{6,}" required autocomplete="off" class="form-control" placeholder="Password">
-          </div>
-            <div class="form-group">
-            <input type="password" id="login_input_password_repeat" name="user_password_repeat" pattern=".{6,}" required autocomplete="off" class="form-control" placeholder="Repeat Password">
-          </div>
-          <br>
-          <button type="submit" name="register" class="btn btn-primary btn-lg btn-block">Submit</button>
-        </form>
-      </div>
-      
-  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
