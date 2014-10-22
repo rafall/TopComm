@@ -31,7 +31,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="width:300px;">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Início</a></li>
             <li><a href="#">Machines</a></li>
