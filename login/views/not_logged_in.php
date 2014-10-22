@@ -73,14 +73,14 @@
       
     <div style="width: 450px;">
         <h1>O que é o ColheJá?</h1>
-        <p>
+        
             O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
             Precisa colher seu milho mas não tem os equipamentos adequados?<br>
             Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
             Precisa fazer o transporte da produção?<br>
             Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
             Cadastre-se agora! É de graça!.
-        </p>
+        
     </div>
       <div style="width: 450px; margin: 0px auto 0px auto;">
         <h1>Sign Up Today!</h1>
