@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TopComm Project</title>
+    <title>ColheJá</title>
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
@@ -23,14 +23,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">TopcComm</a>
+          <a class="navbar-brand" href="#">ColheJá</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Photos</a></li>
+            <li class="active"><a href="#">Início</a></li>
+            <li><a href="#">Alguma coisa</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Something<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -60,7 +60,7 @@
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Configuration</a></li>
                 <li class="divider"></li>
-                <li><a href="index.php?logout">Log Out</a></li>
+                <li><a href="index.php?logout">Sair</a></li>
               </ul>
             </li>
           </ul>
@@ -69,11 +69,11 @@
     </nav>
       
       <div style="width: 130px; height:450px;">
-        <ul class="nav nav-stacked" role="tablist">
-            <li class="active"><a href="#">Home</a></li>
+        <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li class="active"><a href="#">Início</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Something</a></li>
-            <li><a href="#">Messages</a></li>
+            <li><a href="#">Messages<span class="badge">42</span></a></li>
             <li><a href="#">Messages</a></li>
             <li><a href="#">Messages</a></li>
         </ul>
