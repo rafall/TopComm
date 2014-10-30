@@ -39,31 +39,34 @@
             <div class="form-group">
               <input type="text" class="form-control">
             </div>
-            <button type="submit" class="btn btn-default">Search</button>
+            <button type="submit" class="btn btn-default">Buscar</button>
           </form>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
       
-        <ul id="myTab" class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
-            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
-            <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+      <!-- Barra de navegacao  -->
+        <ul id="myTab" class="nav nav-tabs" role="tablist"> <!-- Cabecalho com as abas -->
+            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Territórios</a></li>
+            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Perfil</a></li>
+            <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Mensagens</a></li>
         </ul>
-        <div id="myTabContent" class="tab-content">
+        <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
             
             <div role="tabpanel" class="tab-pane active" id="home">
-                <?php include("/TopComm/src/home_text.html"); ?>
+                Teste1
+                <!-- <?php include("/TopComm/src/home_text.html"); ?> -->
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
-                <?php include("/TopComm/src/profile_text.html"); ?>
+                Teste2
+                
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
-                <?php include("/TopComm/src/message_text.html"); ?>
+                Teste3
             </div>
         </div>
       
-      
+      <!-- Carrosel com as empresas cadastradas -->
       <div class="panel panel-success">
             <div class="panel-body">
                 <h3>Veja as empresas cadastradas!</h3>
