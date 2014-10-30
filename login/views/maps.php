@@ -23,21 +23,7 @@
           ,mapProp);
         }
         
-        google.maps.event.addListener(map, 'click', function(event) {
-          placeMarker(event.latLng);
-        });
-
-        function placeMarker(location) {
-          var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-          });
-          var infowindow = new google.maps.InfoWindow({
-            content: 'Latitude: ' + location.lat() +
-            '<br>Longitude: ' + location.lng()
-          });
-          infowindow.open(map,marker);
-        }
+        
 
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
@@ -84,6 +70,23 @@
         </div>
     </div>
       
+      <script>
+        google.maps.event.addListener(map, 'click', function(event) {
+          placeMarker(event.latLng);
+        });
+
+        function placeMarker(location) {
+          var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+          });
+          var infowindow = new google.maps.InfoWindow({
+            content: 'Latitude: ' + location.lat() +
+            '<br>Longitude: ' + location.lng()
+          });
+          infowindow.open(map,marker);
+        }
+      </script>
       
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
