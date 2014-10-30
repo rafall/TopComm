@@ -8,25 +8,44 @@
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
+    
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
     </script>
-    
-    <script>
-        function initialize()
-        {
-        var mapProp = {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-          mapTypeId:google.maps.MapTypeId.ROADMAP
-          };
-        var map=new google.maps.Map(document.getElementById("googleMap")
-          ,mapProp);
-        }
-        
-        
 
-        google.maps.event.addDomListener(window, 'load', initialize);
+    <script>
+    var map;
+    var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+
+    function initialize()
+    {
+    var mapProp = {
+      center:myCenter,
+      zoom:5,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+
+      map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+      google.maps.event.addListener(map, 'click', function(event) {
+        placeMarker(event.latLng);
+      });
+    }
+
+    function placeMarker(location) {
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+      var infowindow = new google.maps.InfoWindow({
+        content: 'Latitude: ' + location.lat() + '<br>Longitude: ' + location.lng()
+      });
+      infowindow.open(map,marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
+      
   </head>
   <body>
       
@@ -70,23 +89,6 @@
         </div>
     </div>
       
-      <script>
-        google.maps.event.addListener(map, 'click', function(event) {
-          placeMarker(event.latLng);
-        });
-
-        function placeMarker(location) {
-          var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-          });
-          var infowindow = new google.maps.InfoWindow({
-            content: 'Latitude: ' + location.lat() +
-            '<br>Longitude: ' + location.lng()
-          });
-          infowindow.open(map,marker);
-        }
-      </script>
       
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
