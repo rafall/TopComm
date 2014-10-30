@@ -55,7 +55,7 @@
             
             <div role="tabpanel" class="tab-pane active" id="home">
                 Teste1
-                <!-- <?php include("/TopComm/src/home_text.html"); ?> -->
+                <?php include("/src/home_text.html"); ?>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 Teste2
