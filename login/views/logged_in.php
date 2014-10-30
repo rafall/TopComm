@@ -65,7 +65,7 @@
                     <h1>Suas áreas atuais são</h1>
                     <p>
                         <ul>
-                            <li><strong>Milho:</strong>Douradina/MS</li>
+                            <li><strong>Milho: </strong>Douradina/MS</li>
                         </ul>
                     </p>
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar novo território</a></p>
@@ -75,7 +75,7 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h1>Veja suas mensagens</h1>
                     <p>Não esqueça de verificar suas mensagens. Pode ser uma empresa fazendo uma oferta!</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Ler mensagens<span class="badge">42</span></a></p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Ler mensagens <span class="badge">42</span></a></p>
                 </div>
             </div>
         </div>
