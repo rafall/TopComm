@@ -54,15 +54,25 @@
         <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
             
             <div role="tabpanel" class="tab-pane active" id="home">
-                Teste1
-                <?php include("TopComm/src/home_text.html"); ?>
+                <div class="jumbotron" style="background-color: #fff">
+                    <h1>Propostas</h1>
+                    <p>Veja as empresas que fizeram propostas para você!</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
-                Teste2
-                
+                <div class="jumbotron" style="background-color: #fff">
+                    <h1>Atualize seu perfil!</h1>
+                    <p>Adicione mais áreas e plantações.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
-                Teste3
+                <div class="jumbotron" style="background-color: #fff">
+                    <h1>Marque seu território!</h1>
+                    <p>Utilize nossa ferramenta para demarcar seu território.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                </div>
             </div>
         </div>
       
