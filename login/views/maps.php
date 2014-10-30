@@ -59,12 +59,17 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-   
-      <h1>Marque sua região</h1>
-      <h3>Clique no botão para adicionar um ponto</h3>
-      <div id="googleMap" style="width:500px;height:380px;"></div>
-      <button type="submit" class="btn btn-default">Adicionar ponto</button>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <div role="tabpanel" class="tab-pane" id="messages">
+        <div class="jumbotron" style="background-color: #fff">
+            <h1>Marque sua região</h1>
+            <p>Clique no botão para adicionar um ponto</p>
+            <div id="googleMap" style="width:500px;height:380px;"></div>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Adicionar ponto</a></p>
+        </div>
+    </div>
+      
+      
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/TopComm/js/bootstrap.min.js"></script>
