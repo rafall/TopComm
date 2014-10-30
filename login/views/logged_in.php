@@ -68,7 +68,7 @@
                             <li><strong>Milho: </strong>Douradina/MS</li>
                         </ul>
                     </p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar novo território</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="/TopComm/login/views/maps.php" role="button">Marcar novo território</a></p>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
