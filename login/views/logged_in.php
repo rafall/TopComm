@@ -45,16 +45,23 @@
       </div><!-- /.container-fluid -->
     </nav>
       
-      <div style="width: 300px; padding-top:0px;">
-        <ul class="nav nav-pills nav-stacked" role="tablist">
-            <li class="active"><a href="#">Início</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Something</a></li>
-            <li><a href="#">Messages<span class="badge">42</span></a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">Messages</a></li>
+      <ul id="myTab" class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+            <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
         </ul>
-      </div>
+        <div id="myTabContent" class="tab-content">
+            
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <?php include("/TopComm/src/home_text.html"); ?>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <?php include("/TopComm/src/profile_text.html"); ?>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">
+                <?php include("/TopComm/src/message_text.html"); ?>
+            </div>
+        </div>
       
       
       
