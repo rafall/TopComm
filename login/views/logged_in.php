@@ -68,7 +68,7 @@
       </div><!-- /.container-fluid -->
     </nav>
       
-      <div style="width: 130px; height:450px;">
+      <div style="width: 130px; height:450px; padding-top:0px;">
         <ul class="nav nav-pills nav-stacked" role="tablist">
             <li class="active"><a href="#">Início</a></li>
             <li><a href="#">Profile</a></li>
