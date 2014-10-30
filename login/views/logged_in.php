@@ -47,31 +47,35 @@
       
       <!-- Barra de navegacao  -->
         <ul id="myTab" class="nav nav-tabs" role="tablist"> <!-- Cabecalho com as abas -->
-            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Territórios</a></li>
-            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Perfil</a></li>
+            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Empresas</a></li>
+            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Áreas</a></li>
             <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Mensagens</a></li>
         </ul>
         <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
             
             <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Propostas</h1>
-                    <p>Veja as empresas que fizeram propostas para você!</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                    <h1>Encontre as empresas</h1>
+                    <p>Procure as empresas que ajudarão o seu negócio!</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Buscar empresas</a></p>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Atualize seu perfil!</h1>
-                    <p>Adicione mais áreas e plantações.</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                    <h1>Suas áreas atuais são</h1>
+                    <p>
+                        <ul>
+                            <li><strong>Milho:</strong>Douradina/MS</li>
+                        </ul>
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar novo território</a></p>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Marque seu território!</h1>
-                    <p>Utilize nossa ferramenta para demarcar seu território.</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Marcar território</a></p>
+                    <h1>Veja suas mensagens</h1>
+                    <p>Não esqueça de verificar suas mensagens. Pode ser uma empresa fazendo uma oferta!</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Ler mensagens<span class="badge">42</span></a></p>
                 </div>
             </div>
         </div>
