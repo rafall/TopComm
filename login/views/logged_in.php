@@ -45,7 +45,7 @@
       </div><!-- /.container-fluid -->
     </nav>
       
-      <ul id="myTab" class="nav nav-tabs" role="tablist">
+        <ul id="myTab" class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
             <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
             <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
@@ -64,7 +64,48 @@
         </div>
       
       
-      
+      <div class="panel panel-success">
+            <div class="panel-body">
+                <h3>Veja as empresas cadastradas!</h3>
+            </div>
+            <div class="panel-footer">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                      <img src="/TopComm/img/stara-resized.png" alt="..." style="display: block;margin-left: auto;margin-right: auto;">
+                    <div class="carousel-caption">
+                      
+                    </div>
+                  </div>
+                  <div class="item">
+                      <img src="/TopComm/img/stara2.png" alt="..." style="display: block;margin-left: auto;margin-right: auto;">
+                    <div class="carousel-caption">
+                      
+                    </div>
+                  </div>
+                 
+                </div>
+
+                <!-- Controls -->
+                <a style="background-image: 0;" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
       
       
       
