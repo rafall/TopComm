@@ -84,7 +84,10 @@
         <div class="jumbotron" style="background-color: #fff">
             <h1>Marque sua região</h1>
             <p>Clique no botão para adicionar um ponto</p>
+
+            <!-- Aqui é o mapa -->
             <div id="googleMap" style="width:95%;height:380px;"></div>
+
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Adicionar ponto</a></p>
         </div>
     </div>
