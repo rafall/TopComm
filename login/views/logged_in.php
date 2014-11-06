@@ -33,7 +33,7 @@
             <li class="active"><a href="#">Perfil</a></li>
             <li><a href="#">Suas áreas</a></li>
             <li><a href="#">Mensagens <span class="badge">42</span></a></li>
-              <li><a href="index.php?logout">Sair</a></li>
+              <li><a href="/TopComm/index.php?logout">Sair</a></li>
           </ul>
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">

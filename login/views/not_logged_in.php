@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body background="/img/back.jpg">
+  <body>
       <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
           </ul>
             <a class="navbar-brand" href="#">ColheJá</a>
           <ul class="nav navbar-nav navbar-right">
-              <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="index.php" name="loginform">
+              <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="/TopComm/index.php" name="loginform">
                   <div class="form-group">
                     <div class="input-group">
                       <input class="form-control" type="email" d="login_input_username" name="user_name" placeholder="E-mail">
