@@ -13,36 +13,69 @@
     </script>
 
     <script>
-    var map;
-    var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+        var map;
+        var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+        var points = [];
+        var flightPath;
+        function initialize()
+        {
+            var mapProp = {
+                center:myCenter,
+                zoom:5,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
 
-    function initialize()
-    {
-    var mapProp = {
-      center:myCenter,
-      zoom:5,
-      mapTypeId:google.maps.MapTypeId.ROADMAP
-      };
+            map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-      map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            google.maps.event.addListener(map, 'click', function(event) {
+                placeMarker(event.latLng);
+          });
+        }
 
-      google.maps.event.addListener(map, 'click', function(event) {
-        placeMarker(event.latLng);
-      });
-    }
+        function placeMarker(location) {
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+            });
 
-    function placeMarker(location) {
-      var marker = new google.maps.Marker({
-        position: location,
-        map: map,
-      });
-      var infowindow = new google.maps.InfoWindow({
-        content: 'Latitude: ' + location.lat() + '<br>Longitude: ' + location.lng()
-      });
-      infowindow.open(map,marker);
-    }
+            //Adiciona o ponto para o vetor de pontos.
+            points.push(marker.position);
+//                //Se já tiver mais que dois pontos, ele desenha o poligono.
+//                if(points.length > 2)
+//                    drawPolygon();
 
-    google.maps.event.addDomListener(window, 'load', initialize);
+        }
+
+        function drawPolygon() {
+
+            //ERRADO CRIA TODA VEZ UM NOVO POLIGONO
+            flightPath = new google.maps.Polygon({
+              paths:points,
+              strokeColor:"#0000FF",
+              strokeOpacity:0.8,
+              strokeWeight:2,
+              fillColor:"#0000FF",
+              fillOpacity:0.4
+            });
+
+            //desenha de novo, com os pontos novos
+            flightPath.setMap(map);
+        }
+
+        //Apaga o poligono, mas nao apaga os pontos
+        function erasePolygon() {
+            //apaga o poligono
+            flightPath.setMap(null);
+        }
+
+        //Calcula a area. AINDA PRECISA TESTAR
+        function calculate() {
+            var area = google.maps.geometry.spherical.computeArea(flightPath.getPath());
+            valor.innerHTML = "Area igual a: " + area + " m2";
+        }
+
+
+        google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
       
@@ -85,7 +118,9 @@
             <h1>Marque sua região</h1>
             <p>Clique no botão para adicionar um ponto</p>
 
-            <!-- Aqui é o mapa -->
+            <!-- Aqui é o mapa etetetete-->
+            <button class="btn btn-primary" onclick="drawPolygon()">Desenhar</button><button onclick="erasePolygon()">Apagar</button><br>
+            <button class="btn btn-primary" onclick="calculate()">Calcular</button>   <span id="valor"></span>
             <div id="googleMap" style="width:95%;height:380px;"></div>
 
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Adicionar ponto</a></p>
