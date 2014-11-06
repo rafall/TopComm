@@ -85,7 +85,7 @@
         </div>
           <div style="width: 50%; margin: 0px auto 0px auto; float:right; padding-right:100px; padding-left:30px;">
             <h1 style="text-align:center">Cadastre-se agora!</h1>
-            <form role="form" method="post" action="login/register.php" name="registerform">
+            <form role="form" method="post" action="/TopComm/login/register.php" name="registerform">
               <div style="margin-left: auto; margin-right: auto">
                 
                   <div class="form-group">
