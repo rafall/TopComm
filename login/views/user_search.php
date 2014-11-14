@@ -50,64 +50,57 @@
                   <table>
                       <tr>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Cana de Açúcar
                                   </label>
                               </div>
                           </td>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Batata
                                   </label>
                               </div>
                           </td>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Milho
                                   </label>
                               </div>
                           </td>
                       </tr>
                       <tr>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Trigo
                                   </label>
                               </div>
                           </td>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Café
                                   </label>
                               </div>
                           </td>
                           <td>
-                              <div class="checkbox disabled">
+                              <div class="checkbox">
                                   <label>
                                     <input type="checkbox" value="" disabled>
-                                    Option two is disabled
+                                    Maconha
                                   </label>
                               </div>
                           </td>
                       </tr>
                   </table>
-
-                <div class="checkbox disabled">
-                  <label>
-                    <input type="checkbox" value="" disabled>
-                    Option two is disabled
-                  </label>
-                </div>
               </div>
           </div>
             <br><button type="submit" class="btn btn-primary btn-lg btn-block">Buscar</button>
