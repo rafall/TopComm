@@ -12,21 +12,6 @@
 
   </head>
   <body>
-      <?php
-        // show potential errors / feedback (from login object)
-        if (isset($login)) {
-            if ($login->errors) {
-                foreach ($login->errors as $error) {
-                    echo $error;
-                }
-            }
-            if ($login->messages) {
-                foreach ($login->messages as $message) {
-                    echo $message;
-                }
-            }
-        }
-        ?>
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -57,7 +42,75 @@
               <input type="text" class="form-control">
             </div>
 
-            <button type="submit" class="btn btn-default">Buscar</button>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Platanção</h3>
+              </div>
+              <div class="panel-body">
+                  <table>
+                      <tr>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox disabled">
+                                  <label>
+                                    <input type="checkbox" value="" disabled>
+                                    Option two is disabled
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                  </table>
+
+                <div class="checkbox disabled">
+                  <label>
+                    <input type="checkbox" value="" disabled>
+                    Option two is disabled
+                  </label>
+                </div>
+              </div>
+          </div>
+            <br><button type="submit" class="btn btn-primary btn-lg btn-block">Buscar</button>
         </form>
 
 
