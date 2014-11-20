@@ -12,7 +12,21 @@
     
   </head>
   <body>
-      
+      <?php
+        // show potential errors / feedback (from login object)
+        if (isset($login)) {
+            if ($login->errors) {
+                foreach ($login->errors as $error) {
+                    echo $error;
+                }
+            }
+            if ($login->messages) {
+                foreach ($login->messages as $message) {
+                    echo $message;
+                }
+            }
+        }
+        ?>
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
