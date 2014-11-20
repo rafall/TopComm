@@ -153,6 +153,13 @@
                     <p>
                         <h3>Propostas pendentes</h3>
                     <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Produtor</th>
+                                <th>Área</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td>
@@ -165,6 +172,13 @@
                     </table>
                     <h3>Histórico de propostas</h3>
                     <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Produtor</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
                         <tbody>
                             <tr>
                                 <td>
