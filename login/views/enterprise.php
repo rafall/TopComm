@@ -43,7 +43,6 @@
             <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Mensagens</a></li>
         </ul>
         <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
-
             <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="jumbotron" style="background-color: #fff">
                     <h1>Encontre produtores</h1>
@@ -146,6 +145,7 @@
                       </tr>
                   </table>
                 </div>
+                </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
@@ -216,7 +216,6 @@
 
         </div>
 
-</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
