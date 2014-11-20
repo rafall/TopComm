@@ -89,7 +89,7 @@
         <div style="width: 50%; float:left; ">
 
             <h1 style="text-align:center">O que é o ColheJá?</h1>
-            <p style="text-align:center; font-size:16px;">
+            <p class="hidden-xs" style="text-align:center; font-size:16px;">
                 O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
                 Precisa colher seu milho mas não tem os equipamentos adequados?<br>
                 Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>

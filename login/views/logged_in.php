@@ -71,7 +71,7 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h1>Encontre as empresas</h1>
                     <p>Procure as empresas que ajudarão o seu negócio!</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Buscar empresas</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="user_search.php" role="button">Buscar empresas</a></p>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
