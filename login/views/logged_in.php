@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ColheJá</title>
+    <title>Colha Já</title>
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">ColheJá</a>
+          <a class="navbar-brand" href="#">Colha Já</a>
             <a class="navbar-brand" href="#" style="float: right;">Olá, <?php echo $_SESSION['user_name']; ?></a>
         </div>
 

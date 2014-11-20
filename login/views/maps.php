@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ColheJá</title>
+    <title>Colha Já</title>
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
         {
             var mapProp = {
                 center:myCenter,
-                zoom:5,
+                zoom:50,
                 mapTypeId:google.maps.MapTypeId.ROADMAP
             };
 
@@ -92,7 +92,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">ColheJá</a>
+          <a class="navbar-brand" href="#">Colha Já</a>
             <a class="navbar-brand" href="#" style="float: right;">Olá, <?php echo $_SESSION['user_name']; ?></a>
         </div>
 
@@ -144,9 +144,6 @@
                             <label for="exampleInputEmail1">Nome da área</label>
                             <input type="text" class="form-control" id="exampleInputEmail1">
                           </div>
-                            <div class="form-group">
-                                Área: <?php echo $area; ?>
-                            </div>
                             <div class="form-group">
                                 <select name="estado">
                                     <option value="estado">Selecione o Estado</option>
