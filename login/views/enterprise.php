@@ -104,7 +104,7 @@
                           </td>
                       </tr>
                   </table>
-              </div>
+
                 <p><h3>Serviço</h3></p>
                   <table style="th, td { padding: 10px;}">
                       <tr>
@@ -145,6 +145,7 @@
                 <p></p>
                 <p></p>
                 <p></p>
+            </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
