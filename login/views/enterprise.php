@@ -44,7 +44,7 @@
         </ul>
         <div style="width=70%;" id="myTabContent" class="tab-content"> <!-- Conteudo -->
             <div role="tabpanel" class="tab-pane active" id="home">
-                <div class="jumbotron" style="background-color: #fff">
+                <div class="jumbotron" style="background-color: #fff; width=75%;">
                     <h2>Encontre produtores</h2>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
                     <p><h3>Tipo de produção</h3></p>
@@ -135,7 +135,7 @@
                       </tr>
                   </table>
 
-                    <select style="width=500px;" multiple class="form-control">
+                    <select style="width=50%;" multiple class="form-control">
                       <option>Fernando - Milho - SP</option>
                       <option>José - Trigo - SP</option>
                       <option>Augusto - Trigo - MS</option>
