@@ -87,19 +87,7 @@
       </div><!-- /.container-fluid -->
     </nav> 
         <div class="hidden-xs" style="width: 50%; float:left; ">
-
-            <h1 style="text-align:center">O que é o ColheJá?</h1>
-            <p style="text-align:center; font-size:16px;">
-                O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
-                Precisa colher seu milho mas não tem os equipamentos adequados?<br>
-                Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
-                Precisa fazer o transporte da produção?<br>
-                Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
-                Cadastre-se agora! É de graça!.
-            </p>
-        </div>
-          <div style="width: 50%; margin: 0px auto 0px auto; float:right; padding-right:100px; padding-left:30px;">
-            <h1 style="text-align:center">Cadastre-se agora!</h1>
+                <h1 style="text-align:center">Cadastre-se agora!</h1>
             <form role="form" method="post" action="/TopComm/login/register.php" name="registerform">
               <div style="margin-left: auto; margin-right: auto">
                 
@@ -123,6 +111,17 @@
                   
               </div>
             </form>
+        </div>
+          <div style="width: 50%; margin: 0px auto 0px auto; float:right; padding-right:100px; padding-left:30px;">
+                          <h1 style="text-align:center">O que é o ColheJá?</h1>
+            <p style="text-align:center; font-size:16px;">
+                O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
+                Precisa colher seu milho mas não tem os equipamentos adequados?<br>
+                Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
+                Precisa fazer o transporte da produção?<br>
+                Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
+                Cadastre-se agora!
+            </p>
           </div>
 
     
