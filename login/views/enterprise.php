@@ -151,45 +151,45 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h2>Suas propostas atuais são:</h2>
                     <p>
-                        <div class="panel-heading">Propostas pendentes</div>
+                        <h3>Propostas pendentes</h3>
                     <table class="table">
                         <tbody>
                             <tr>
                                 <td>
-                                    May 20
+                                    Dezembro 2014
                                 </td>
                                 <td>Fernando Plantador</td>
                                 <td>1000he</td>
                             </tr>
                         </tbody>
                     </table>
-                    <div class="panel-heading">Histórico de propostas</div>
+                    <h3>Histórico de propostas</h3>
                     <table class="table">
                         <tbody>
                             <tr>
                                 <td>
-                                    May 20
+                                    Abril 2014
                                 </td>
                                 <td>Fernando Plantador</td>
                                 <td>Fechado</td>
                             </tr>
                             <tr>
                                 <td>
-                                    May 20
+                                    Maio 2013
                                 </td>
                                 <td>Fernando Plantador</td>
                                 <td>Fechado</td>
                             </tr>
                             <tr>
                                 <td>
-                                    May 20
+                                    Abril 2012
                                 </td>
                                 <td>Fernando Plantador</td>
                                 <td>Cancelado</td>
                             </tr>
                             <tr>
                                 <td>
-                                    May 20
+                                    Junho 2011
                                 </td>
                                 <td>Fernando Plantador</td>
                                 <td>Fechado</td>
