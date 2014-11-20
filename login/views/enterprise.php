@@ -105,7 +105,7 @@
                       </tr>
                   </table>
               </div>
-                <h3 class="panel-title">Serviço</h3>
+                <h3>Serviço</h3>
                   <table>
                       <tr>
                           <td>
