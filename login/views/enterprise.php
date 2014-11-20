@@ -45,7 +45,7 @@
         <div style="width=70%;" id="myTabContent" class="tab-content"> <!-- Conteudo -->
             <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h3>Encontre produtores</h3>
+                    <h2>Encontre produtores</h2>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
                     <table style="width=50%;">
                       <tr>
@@ -103,55 +103,49 @@
                           </td>
                       </tr>
                   </table>
-                    <select style="width=50%;" multiple class="form-control">
+              </div>
+
+                <h3 class="panel-title">Serviço</h3>
+                  <table>
+                      <tr>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Plantação
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Colheita
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Transporte
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                  </table>
+
+                    <select style="width=500px;" multiple class="form-control">
                       <option>Fernando - Milho - SP</option>
                       <option>José - Trigo - SP</option>
                       <option>Augusto - Trigo - MS</option>
                       <option>Monteiro - Cana de Açúcar - PE</option>
                       <option>Roberto - Café - PA</option>
                     </select>
-              </div>
-
-              <div class="panel panel-success">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Serviço</h3>
-                  </div>
-                  <div class="panel-body">
-                      <table>
-                          <tr>
-                              <td>
-                                  <div class="checkbox">
-                                      <label>
-                                        <input type="checkbox" value="" >
-                                        Plantação
-                                      </label>
-                                  </div>
-                              </td>
-                              <td>
-                                  <div class="checkbox">
-                                      <label>
-                                        <input type="checkbox" value="" >
-                                        Colheita
-                                      </label>
-                                  </div>
-                              </td>
-                              <td>
-                                  <div class="checkbox">
-                                      <label>
-                                        <input type="checkbox" value="" >
-                                        Transporte
-                                      </label>
-                                  </div>
-                              </td>
-                          </tr>
-                      </table>
-                    </div>
-                </div>
-
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Suas propostas atuais são:</h1>
+                    <h2>Suas propostas atuais são:</h2>
                     <p>
                         <div class="panel-heading">Propostas pendentes</div>
                     <table>
@@ -203,7 +197,7 @@
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
                 <div class="jumbotron" style="background-color: #fff">
-                        <h1>Veja suas mensagens</h1>
+                        <h2>Veja suas mensagens</h2>
                     <p>Veja se algum produtor está interessado em seus serviços e entre em contato com aqueles que já fecharam negocio.</p>
                     <ul class="list-group">
                         <li class="list-group-item">Cras justo odio</li>
