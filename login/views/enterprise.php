@@ -106,7 +106,7 @@
                   </table>
 
                 <p><h3>Serviço</h3></p>
-                  <table style="th, td { padding: 10px;}">
+                  <table class="table">
                       <tr>
                           <td>
                               <div class="checkbox">
@@ -134,7 +134,7 @@
                           </td>
                       </tr>
                   </table>
-
+                <h3>Produtores encontrados</h3>
                     <select style="width=50%;" multiple class="form-control">
                       <option>Fernando - Milho - SP</option>
                       <option>José - Trigo - SP</option>
