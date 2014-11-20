@@ -152,7 +152,7 @@
                     <h2>Suas propostas atuais são:</h2>
                     <p>
                         <div class="panel-heading">Propostas pendentes</div>
-                    <table border="10px">
+                    <table class="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -164,7 +164,7 @@
                         </tbody>
                     </table>
                     <div class="panel-heading">Histórico de propostas</div>
-                    <table>
+                    <table class="table">
                         <tbody>
                             <tr>
                                 <td>
