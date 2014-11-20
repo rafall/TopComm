@@ -73,7 +73,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav> 
-        <div class="hidden-xs" style="width: 50%; float:left; padding-left: 100px;">
+        <div style="width: 50%; float:left; padding-left: 100px;">
                 <h1 style="text-align:center">Cadastre-se agora!</h1>
             <form role="form" method="post" action="/TopComm/login/register.php" name="registerform">
               <div style="margin-left: auto; margin-right: auto">
@@ -99,7 +99,7 @@
               </div>
             </form>
         </div>
-          <div style="width: 50%; margin: 0px auto 0px auto; float:right; padding-right:100px; padding-left:30px;">
+          <div class="hidden-xs" style="width: 50%; margin: 0px auto 0px auto; float:right; padding-right:100px; padding-left:30px;">
                           <h1 style="text-align:center">O que é o ColheJá?</h1>
             <p style="text-align:center; font-size:16px;">
                 O <strong>ColheJá</strong> é um site que aproxima produtores de fornecedores de serviço.<br>
