@@ -42,10 +42,10 @@
             <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Propostas</a></li>
             <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Mensagens</a></li>
         </ul>
-        <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
+        <div style="width=70%;" id="myTabContent" class="tab-content"> <!-- Conteudo -->
             <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Encontre produtores</h1>
+                    <h3>Encontre produtores</h3>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
                     <table style="width=50%;">
                       <tr>
@@ -111,7 +111,8 @@
                       <option>Roberto - Café - PA</option>
                     </select>
               </div>
-              <div style="width=50%;" class="panel panel-default">
+
+              <div class="panel panel-success">
                   <div class="panel-heading">
                     <h3 class="panel-title">Serviço</h3>
                   </div>
@@ -146,6 +147,7 @@
                       </table>
                     </div>
                 </div>
+
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
