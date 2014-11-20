@@ -149,10 +149,8 @@
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h2>Suas propostas atuais são:</h2>
-                    <p>
                         <h3>Propostas pendentes</h3>
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Data</th>
@@ -171,7 +169,7 @@
                         </tbody>
                     </table>
                     <h3>Histórico de propostas</h3>
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Data</th>
@@ -210,20 +208,20 @@
                             </tr>
                         </tbody>
                     </table>
-                    </p>
+
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="messages">
                 <div class="jumbotron" style="background-color: #fff">
                         <h2>Veja suas mensagens</h2>
-                    <p>Veja se algum produtor está interessado em seus serviços e entre em contato com aqueles que já fecharam negocio.</p>
                     <ul class="list-group">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item"><strong>Fernando Plantador</strong> Gostaria de agradecer pelo serviço!</li>
+                        <li class="list-group-item"><strong>Fernando Plantador</strong> Podemos marcar para Abril.</li>
+                        <li class="list-group-item"><strong>Fernando Plantador</strong> Negócio fechado!</li>
+                        <li class="list-group-item"><strong>Fernando Plantador</strong> Acho que está muito caro!</li>
+                        <li class="list-group-item"><strong>Fernando Plantador</strong> Quanto fica a colheita da minha área?</li>
                     </ul>
+                    <button type="submit" class="btn btn-default">Escrever mensagem</button>
                 </div>
             </div>
 
