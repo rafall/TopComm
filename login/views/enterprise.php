@@ -48,7 +48,7 @@
                     <h2>Encontre produtores</h2>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
                     <p><h3>Tipo de produção</h3></p>
-                    <table border="10px">
+                    <table class="table">
                       <tr>
                           <td>
                               <div class="checkbox">
