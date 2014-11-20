@@ -38,7 +38,7 @@
           </div><!-- /.container-fluid -->
         </nav>
 
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Busque uma empresa pelo nome">
             </div>
