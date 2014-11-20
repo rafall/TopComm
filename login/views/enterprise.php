@@ -48,7 +48,7 @@
                     <h2>Encontre produtores</h2>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
                     <h3>Tipo de produção</h3>
-                    <table>
+                    <table border="10px">
                       <tr>
                           <td>
                               <div class="checkbox">
@@ -106,7 +106,7 @@
                   </table>
               </div>
                 <h3>Serviço</h3>
-                  <table>
+                  <table border="10px">
                       <tr>
                           <td>
                               <div class="checkbox">
@@ -142,13 +142,16 @@
                       <option>Monteiro - Cana de Açúcar - PE</option>
                       <option>Roberto - Café - PA</option>
                     </select>
+                <p></p>
+                <p></p>
+                <p></p>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
                     <h2>Suas propostas atuais são:</h2>
                     <p>
                         <div class="panel-heading">Propostas pendentes</div>
-                    <table>
+                    <table border="10px">
                         <tbody>
                             <tr>
                                 <td>
