@@ -47,7 +47,7 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h1>Encontre produtores</h1>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
-                    <table>
+                    <table style="width=50%;">
                       <tr>
                           <td>
                               <div class="checkbox">
@@ -103,7 +103,7 @@
                           </td>
                       </tr>
                   </table>
-                    <select multiple class="form-control">
+                    <select style="width=50%;" multiple class="form-control">
                       <option>Fernando - Milho - SP</option>
                       <option>José - Trigo - SP</option>
                       <option>Augusto - Trigo - MS</option>
@@ -111,40 +111,40 @@
                       <option>Roberto - Café - PA</option>
                     </select>
               </div>
-              <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Serviço</h3>
-              </div>
-              <div class="panel-body">
-                  <table>
-                      <tr>
-                          <td>
-                              <div class="checkbox">
-                                  <label>
-                                    <input type="checkbox" value="" >
-                                    Plantação
-                                  </label>
-                              </div>
-                          </td>
-                          <td>
-                              <div class="checkbox">
-                                  <label>
-                                    <input type="checkbox" value="" >
-                                    Colheita
-                                  </label>
-                              </div>
-                          </td>
-                          <td>
-                              <div class="checkbox">
-                                  <label>
-                                    <input type="checkbox" value="" >
-                                    Transporte
-                                  </label>
-                              </div>
-                          </td>
-                      </tr>
-                  </table>
-                </div>
+              <div style="width=50%;" class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Serviço</h3>
+                  </div>
+                  <div class="panel-body">
+                      <table>
+                          <tr>
+                              <td>
+                                  <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" value="" >
+                                        Plantação
+                                      </label>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" value="" >
+                                        Colheita
+                                      </label>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" value="" >
+                                        Transporte
+                                      </label>
+                                  </div>
+                              </td>
+                          </tr>
+                      </table>
+                    </div>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
