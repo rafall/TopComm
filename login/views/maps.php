@@ -145,6 +145,9 @@
                             <input type="text" class="form-control" id="exampleInputEmail1">
                           </div>
                             <div class="form-group">
+                                Área: <?php echo $area; ?>
+                            </div>
+                            <div class="form-group">
                                 <select name="estado">
                                     <option value="estado">Selecione o Estado</option>
                                     <option value="ac">Acre</option>
@@ -185,7 +188,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary">Salvar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Salvar</button>
                   </div>
                 </div>
               </div>
