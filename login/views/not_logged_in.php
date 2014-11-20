@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ColheJá</title>
+    <title>Colha Já</title>
 
     <!-- Bootstrap -->
     <link href="/TopComm/css/bootstrap.min.css" rel="stylesheet">
@@ -48,22 +48,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Início</a></li>
-            <li><a href="#">Machines</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Where <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Brazil</a></li>
-                <li><a href="#">EUA</a></li>
-                <li><a href="#">SP</a></li>
-                <li class="divider"></li>
-                <li><a href="#">RS</a></li>
-                <li class="divider"></li>
-                <li><a href="#">FIM</a></li>
-              </ul>
-            </li>
+            <li class="active"><a href="#">Colha Já</a></li>
           </ul>
-            <a class="navbar-brand" href="#">ColheJá</a>
+
           <ul class="nav navbar-nav navbar-right">
               <form class="form-inline" role="form" style="padding-top:8px;" method="post" action="index.php" name="loginform">
                   <div class="form-group">
@@ -86,7 +73,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav> 
-        <div class="hidden-xs" style="width: 50%; float:left; ">
+        <div class="hidden-xs" style="width: 50%; float:left; padding-left: 100px;">
                 <h1 style="text-align:center">Cadastre-se agora!</h1>
             <form role="form" method="post" action="/TopComm/login/register.php" name="registerform">
               <div style="margin-left: auto; margin-right: auto">
@@ -120,6 +107,8 @@
                 Procure aqui, e escolha a empresa mais perto de você e com o melhor preço.<br>
                 Precisa fazer o transporte da produção?<br>
                 Aqui você também encontra empresas que prestam serviço de logística para o seu negócio.<br>
+                É uma empresa que oferece esses serviços?<br>
+                Veja nossos planos!<br>
                 Cadastre-se agora!
             </p>
           </div>
