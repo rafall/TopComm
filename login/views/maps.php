@@ -14,7 +14,7 @@
 
     <script>
         var map;
-        var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+        var myCenter=new google.maps.LatLng(-22.0055948,-47.8933842);
         var points = [];
         var flightPath;
         function initialize()
@@ -119,11 +119,11 @@
             <p>Clique no botão para adicionar um ponto</p>
 
             <!-- Aqui é o mapa etetetete-->
-            <button class="btn btn-primary" onclick="drawPolygon()">Desenhar</button><button onclick="erasePolygon()">Apagar</button><br>
+            <button class="btn btn-primary" onclick="drawPolygon()">Desenhar</button><button class="btn btn-primary" onclick="erasePolygon()">Apagar</button><br>
             <button class="btn btn-primary" onclick="calculate()">Calcular</button>   <span id="valor"></span>
             <div id="googleMap" style="width:95%;height:380px;"></div>
 
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Adicionar ponto</a></p>
+
         </div>
     </div>
       
