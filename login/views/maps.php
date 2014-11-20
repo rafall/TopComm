@@ -71,7 +71,7 @@
         //Calcula a area. AINDA PRECISA TESTAR
         function calculate() {
             var area = google.maps.geometry.spherical.computeArea(flightPath.getPath());
-            valor.innerHTML = "Area igual a: " + area + " m2";
+            valor.innerHTML = "<h3>Area igual a: " + area + " m2</h3>";
         }
 
 
@@ -120,7 +120,8 @@
 
             <!-- Aqui é o mapa etetetete-->
             <button class="btn btn-primary" onclick="drawPolygon()">Desenhar</button><button class="btn btn-primary" onclick="erasePolygon()">Apagar</button><br>
-            <button class="btn btn-primary" onclick="calculate()">Calcular</button>   <span id="valor"></span>
+            <button class="btn btn-primary" onclick="calculate()">Calcular</button>
+            <br><span id="valor"></span>
             <div id="googleMap" style="width:95%;height:380px;"></div>
 
 
