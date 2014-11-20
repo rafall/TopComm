@@ -21,7 +21,7 @@
         {
             var mapProp = {
                 center:myCenter,
-                zoom:20,
+                zoom:13,
                 mapTypeId:google.maps.MapTypeId.ROADMAP
             };
 
