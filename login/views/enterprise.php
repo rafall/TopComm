@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Perfil</a></li>
-            <li><a href="#">Suas áreas</a></li>
+            <li><a href="#">Suas propostas</a></li>
             <li><a href="#">Mensagens <span class="badge">42</span></a></li>
               <li><a style="float: right;" href="/TopComm/index.php?logout">Sair</a></li>
           </ul>
@@ -39,7 +39,7 @@
 
       <ul id="myTab" class="nav nav-tabs" role="tablist"> <!-- Cabecalho com as abas -->
             <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Produtores</a></li>
-            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Áreas</a></li>
+            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Propostas</a></li>
             <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Mensagens</a></li>
         </ul>
         <div id="myTabContent" class="tab-content"> <!-- Conteudo -->
@@ -48,25 +48,110 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h1>Encontre produtores</h1>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Buscar produtores</a></p>
+                    <table>
+                      <tr>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Cana de Açúcar
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Batata
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Milho
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Trigo
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Café
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Outros
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                  </table>
+                    <select multiple class="form-control">
+                      <option>Fernando - Milho - SP</option>
+                      <option>José - Trigo - SP</option>
+                      <option>Augusto - Trigo - MS</option>
+                      <option>Monteiro - Cana de Açúcar - PE</option>
+                      <option>Roberto - Café - PA</option>
+                    </select>
+              </div>
+              <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Serviço</h3>
+              </div>
+              <div class="panel-body">
+                  <table>
+                      <tr>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Plantação
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Colheita
+                                  </label>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="" >
+                                    Transporte
+                                  </label>
+                              </div>
+                          </td>
+                      </tr>
+                  </table>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="jumbotron" style="background-color: #fff">
-                    <h1>Suas áreas atuais são</h1>
+                    <h1>Suas propostas atuais são:</h1>
                     <p>
-                        <ul>
-                            <li><strong>Milho: </strong>Douradina/MS</li>
-                        </ul>
-                    </p>
-                    <p><a class="btn btn-primary btn-lg" href="/TopComm/login/views/maps.php" role="button">Marcar novo território</a></p>
-                </div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="messages">
-                <div class="jumbotron" style="background-color: #fff">
-                        <h1>Veja suas mensagens</h1>
-                    <p>Veja se algum produtor está interessado em seus serviços e entre em contato com aqueles que já fecharam negocio.</p>
-                    <div class="panel-heading">Propostas pendentes</div>
+                        <div class="panel-heading">Propostas pendentes</div>
                     <table>
                         <tbody>
                             <tr>
@@ -111,6 +196,13 @@
                             </tr>
                         </tbody>
                     </table>
+                    </p>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">
+                <div class="jumbotron" style="background-color: #fff">
+                        <h1>Veja suas mensagens</h1>
+                    <p>Veja se algum produtor está interessado em seus serviços e entre em contato com aqueles que já fecharam negocio.</p>
                     <ul class="list-group">
                         <li class="list-group-item">Cras justo odio</li>
                         <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -120,6 +212,8 @@
                     </ul>
                 </div>
             </div>
+
+
         </div>
 
 
