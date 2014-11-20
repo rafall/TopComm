@@ -47,7 +47,7 @@
                 <div class="jumbotron" style="background-color: #fff">
                     <h2>Encontre produtores</h2>
                     <p>Procure procure os produtores e suas áreas de plantio!</p>
-                    <h3>Tipo de produção</h3>
+                    <p><h3>Tipo de produção</h3></p>
                     <table border="10px">
                       <tr>
                           <td>
@@ -105,8 +105,8 @@
                       </tr>
                   </table>
               </div>
-                <h3>Serviço</h3>
-                  <table border="10px">
+                <p><h3>Serviço</h3></p>
+                  <table style="th, td { padding: 10px;}">
                       <tr>
                           <td>
                               <div class="checkbox">
